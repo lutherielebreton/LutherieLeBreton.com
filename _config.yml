@@ -1,0 +1,34 @@
+title: Lutherie Le Breton
+description: >-
+  Luthier professionnel à alma:
+  service personnalisé, conseils, réparation et ajustement d'instruments,
+  spécialiste en guitares et basses.
+baseurl: ""
+url: "https://lutherielebreton.com"
+owner: Raphael Le Breton
+email: raphaellebreton751@gmail.com
+phone_number: +1 (418) 720-4392
+facebook_page: LutherieLeBreton
+github_organization:  lutherielebreton
+
+facebook:
+  app_id: 2205134606410423
+  default_image: /images/open-graph-default-image.png
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

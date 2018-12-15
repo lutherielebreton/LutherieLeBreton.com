@@ -1,0 +1,20 @@
+<head>
+    <title>
+        {% if page.title %}{{ page.title }} &middot; {% endif %}{{ site.title }}
+    </title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <meta name="keywords" content="lutherie, guitares, luthier, réparation, instruments, alma"/>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <link type="text/plain" rel="author" href="{{ '/humans.txt' | relative_url }}"/>
+    <meta name="robots" content="index,follow"/>
+    <meta name="copyright" content="Lutherie Le Breton"/>
+    <meta name="revisit-after" content="7 days"/>
+    <meta name="google-site-verification" content="C2akcCjLZXlusAkgDiOL1SGspl66JKTTUb2QX6WW-qw" />
+    {% include header-open-graph.html %}
+    <link rel="stylesheet" href="{{ 'assets/css/main.css' ' | relative_url }}"/>
+    <noscript>
+        <link rel="stylesheet" href="{{ 'assets/css/noscript.css' | relative_url }}"/>
+    </noscript>
+    {% include favicon.html %}
+</head>

@@ -1,0 +1,20 @@
+---
+permalink: humans.txt
+---
+
+/* TEAM */
+  Owner: Raphael Le Breton
+  Contact: j [at] jipi.ca
+  From: Alma, Québec, Canada
+
+  Contributor: Gabriel Le Breton
+  Contact: lebreton.gabriel [at] gmail.com
+  Twitter: @gableroux
+  From: Saguenay, Québec, Canada
+
+/* SITE */
+  Last update: {{ site.time }}
+  Language: French
+  Doctype: HTML5
+  Hosting: Github Pages
+  Framework: Jekyll

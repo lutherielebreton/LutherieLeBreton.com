@@ -1,0 +1,35 @@
+---
+layout: page
+permalink: /
+---
+<header id="header">
+    <div>
+        <img src="./images/lutherielebreton-transparent.png" alt="{{ site.title }}">
+    </div>
+    <div class="content">
+        <div class="inner">
+            <h1>{{ site.title }}</h1>
+            <p>Luthier professionnel à Alma<br>
+                <strong>{{ site.owner }}</strong><br>
+                <i class="fa fa-phone"></i> <a href="tel:{{ site.phone_number }}">{{ site.phone_number }}</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- todo: insert nav here -->
+
+    <ul class="icons">
+        <!--<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>-->
+        <li>
+            <a href="https://www.facebook.com/{{ site.facebook_page }}/" class="icon fa-facebook"><span class="label">Facebook</span></a>
+            <a href="mailto:{{ site.email }}" class="icon fa-envelope"><span class="label">Courriel</span></a>
+        </li>
+        <!--<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>-->
+        <!--<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>-->
+    </ul>
+</header>
+<footer id="footer">
+    <p class="copyright">&copy; 2018 <a href="{{ site.url }}">{{ site.title }}</a>.
+        <a href="https://github.com/{{ site.github_organization }}" class="icon fa-github"><span class="label">Github</span></a>
+    </p>
+</footer>

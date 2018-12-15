@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+{% include head.html %}
+<body class="is-preload">
+    {{ content }}
+    <div id="bg"></div>
+    <script src="{{ 'assets/js/jquery.min.js' | relative_url }}"></script>
+    <script src="{{ 'assets/js/browser.min.js' | relative_url }}"></script>
+    <script src="{{ 'assets/js/breakpoints.min.js' | relative_url }}"></script>
+    <script src="{{ 'assets/js/util.js' | relative_url }}"></script>
+    <script src="{{ 'assets/js/main.js' | relative_url }}"></script>
+    {% include google-analytics.html %}
+</body>
+</html>
