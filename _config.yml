@@ -13,7 +13,7 @@ github_organization:  lutherielebreton
 
 facebook:
   app_id: 2205134606410423
-  default_image: /images/open-graph-default-image.png
+  default_image: images/open-graph-default-image.png
 
 # Build settings
 markdown: kramdown
