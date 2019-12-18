@@ -6,6 +6,8 @@
 
 (function($) {
 
+  $("#currentYear").text(new Date().getFullYear());
+
 	var	$window = $(window),
 		$body = $('body'),
 		$wrapper = $('#wrapper'),
